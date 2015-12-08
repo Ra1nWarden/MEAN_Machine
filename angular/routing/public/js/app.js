@@ -1,4 +1,4 @@
-angular.module('routerApp', ['routerRoutes'])
+angular.module('routerApp', ['routerRoutes', 'ngAnimate'])
 .controller('mainController', function() {
   var vm = this;
   vm.bigMessage = 'A smooth sea never made a skilled sailor.';
